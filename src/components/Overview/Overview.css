@@ -1,0 +1,57 @@
+.textSec {
+  margin-top: 20px;
+}
+.textSec h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #071b46;
+}
+.textSec small {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #908f8c;
+}
+#card {
+  background-color: #1f1d2b;
+  margin: 10px 10px;
+  padding: 13.5846px;
+  height: 131.02px;
+  width: 350.99px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* inside card */
+.cardTop {
+  display: flex;
+  align-items: center;
+}
+.cardTop p {
+  margin: 0;
+  padding: 0px;
+}
+#employeeIcon {
+  background-color: #252836;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#counter{
+  color: #4ABA9A;
+  margin-right: 5px;
+}
+#upArrow{
+  color: green;
+}
+#total{
+  margin-top: 10px;
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  #card {
+    width: 100%;
+  }
+}

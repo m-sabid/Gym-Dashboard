@@ -1,0 +1,48 @@
+.feedbackText {
+  margin-top: 20px;
+}
+.feedbackText h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #071b46;
+}
+.feedbackText small {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #908f8c;
+}
+#feedbackCard {
+  border: 1px solid rgba(128, 128, 128, 0.351);
+  /* background-color: #1f1d2b; */
+  margin: 10px 10px;
+  padding: 13.5846px;
+  /* height: 131.02px; */
+  width: 350.99px;
+  border-radius: 10px;
+  color: rgb(143, 143, 143);
+}
+.userProfile{
+  display: flex;
+  align-items: center;
+}
+.userProfile img {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.userName{
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+#userType{
+  font-size: small;
+}
+.feedbackDate{
+  margin: -25px 0 0 auto;
+}
+
+
+
+

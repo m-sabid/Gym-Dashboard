@@ -1,0 +1,39 @@
+h1, h5, h4, p{
+  margin: 0;
+  padding: 0;
+}
+footer {
+  margin-top: 100px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #F04F23;
+  padding: 20px;
+}
+.nameSocial{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialIcons{
+  color: white;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  
+}
+#gymName{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+}
+#sIcons{
+  margin: 0 20% 0 0;
+  height: 30px;
+  width: 30px;
+  background-color: #f38f7463;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
