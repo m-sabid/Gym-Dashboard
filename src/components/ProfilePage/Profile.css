@@ -1,0 +1,64 @@
+.profileHeader {
+  display: flex;
+}
+.accSec {
+  margin-left: 50px;
+}
+#manager_profilePic {
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+}
+.name_dis {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.fname {
+  font-family: "Montserrat";
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #3d3270;
+}
+.post {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fd5e36;
+}
+#accBtn {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #98979b2c;
+  border-radius: 10px;
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.8769px;
+  line-height: 19px;
+  text-align: center;
+  color: #636466;
+}
+
+.acclvl {
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.5231px;
+  line-height: 22px;
+  color: #faa61a;
+}

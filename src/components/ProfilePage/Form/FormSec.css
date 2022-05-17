@@ -1,0 +1,45 @@
+.FormSec {
+  margin-top: 50px;
+}
+.inputs1 > input {
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.395);
+  outline: none;
+  background-color: #908f8c27;
+}
+.inputs1 > label {
+  border-bottom: 1px dashed red;
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+
+  color: #908f8c;
+}
+.update{
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    margin: auto;
+    display: flex;
+    outline: none;
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    margin-top: 20px;
+    background: green;
+    width: 200px;
+}
+.update:hover{
+    background-color: rgba(255, 0, 0, 0.716);
+    transition: all 300ms;
+}
