@@ -1,0 +1,133 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-2");
+
+.Applications {
+  margin-top: 20px;
+}
+
+/* Auto layout */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28.368px 31.52px;
+  height: 271.67px;
+  background: #f1f1f1;
+  border: 0.788px solid #dee2e6;
+  box-shadow: 0px 0px 1.576px rgba(0, 0, 0, 0.12),
+    0px 15.76px 15.76px rgba(0, 0, 0, 0.08);
+  border-radius: 6.304px;
+}
+.form > h4 {
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22.227px;
+  color: #54595e;
+  letter-spacing: 0.04em;
+}
+.form > small {
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.6702px;
+  line-height: 5px;
+  color: #636466;
+}
+.btnSec {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btnSec > button {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11.032px 15.76px;
+  gap: 7.88px;
+  width: 200px;
+  height: 35.06px;
+  border: 0.788px solid #444444;
+  border-radius: 6.304px;
+}
+/* button */
+#Accept {
+  background-color: #f04f23;
+  color: white;
+}
+
+/* My Applications */
+.my_applications {
+  margin-top: 50px;
+}
+.my_applications > h3 {
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #071b46;
+  letter-spacing: 0.04em;
+}
+.NewApplication {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 71px;
+  background: #f2f2f2;
+  border: 0.681225px dashed #fbb848;
+  border-radius: 5.4498px;
+}
+.NewApplication > p {
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  color: #f04f23;
+}
+
+/* Applications List  */
+.myAllApplicationsApproved,
+.myAllApplicationsHold,
+.myAllApplicationsRejected {
+  box-sizing: border-box;
+  margin: 5px 0;
+  display: flex;
+  height: 102px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13.1333px;
+  background: rgba(255, 120, 47, 0.1);
+  border-radius: 3.28333px;
+}
+.myAllApplicationsApproved {
+  border: 1.64167px solid green;
+  color: green;
+}
+.myAllApplicationsHold {
+  border: 1.64167px solid yellow;
+  color: yellow;
+}
+.myAllApplicationsRejected {
+  border: 1.64167px solid red;
+  color: red;
+}
+
+/* Card for applications */
+.appleName {
+  font-family: "Helvetica Neue LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.9833px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}

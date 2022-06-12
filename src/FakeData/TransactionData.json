@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "typeOfTransaction": "Salary Payment Received",
+    "Time": "08.00pm",
+    "Month": "March",
+    "Amount": 40000
+  },
+  {
+    "id": 2,
+    "typeOfTransaction": "Bonus Payment Received",
+    "Time": "10.00am",
+    "Month": "March",
+    "Amount": 2000
+  }
+]

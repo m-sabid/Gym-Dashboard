@@ -1,4 +1,12 @@
-import { FaUsersCog, FaArrowCircleUp, FaUserGraduate, FaDumbbell, FaFileAlt, FaBoxes, FaWalking } from "react-icons/fa";
+import {
+  FaUsersCog,
+  FaArrowCircleUp,
+  FaUserGraduate,
+  FaDumbbell,
+  FaFileAlt,
+  FaBoxes,
+  FaWalking,
+} from "react-icons/fa";
 
 export const OverviewData = [
   {

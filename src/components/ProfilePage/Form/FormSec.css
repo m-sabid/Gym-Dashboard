@@ -9,7 +9,7 @@
   border: none;
   border-bottom: 1px solid rgba(128, 128, 128, 0.395);
   outline: none;
-  background-color: #908f8c27;
+  background-color: #dfdfdf3e;
 }
 .inputs1 > label {
   border-bottom: 1px dashed red;
@@ -17,7 +17,7 @@
   margin-bottom: 10px;
   font-family: "Helvetica Neue LT Pro";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 14px;
   line-height: 17px;
   text-transform: capitalize;

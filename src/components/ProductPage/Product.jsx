@@ -1,34 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "./Product.css";
-import { FaEdit, FaBox, FaSlidersH } from "react-icons/fa";
+import { FaEdit } from "react-icons/fa";
 import { ProductData } from "../../FakeData/ProductData";
+import PageHeader from "../PageHeader/PageHeader";
 
 const Product = () => {
   const products = ProductData.slice(0, 15);
 
   return (
     <div className="Product">
-      <div className="productHeader">
-        <div className="countSec">
-          {/* Counter */}
-          <div className="counter">
-            <div className="icons">
-              <FaBox />
-            </div>
-            <div className="totalPCount">
-              <p id="productText">PRODUCTS</p>
-              <p>
-                <strong>{ProductData.length}</strong>
-              </p>
-            </div>
-          </div>
-          {/* filter */}
-          <div className="filter">
-            <p id="filterPara"><FaSlidersH /> Filter list</p>
-          </div>
-        </div>
-      </div>
+      <PageHeader dt={ProductData} />
       <Row>
         <Col md={3}>
           <div className="productAddCard">

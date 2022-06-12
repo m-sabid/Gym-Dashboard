@@ -1,7 +1,7 @@
 import React from "react";
 import { Table } from "react-bootstrap";
-import { FaBox, FaSlidersH } from "react-icons/fa";
 import { OrderData } from "../../FakeData/OrderData";
+import PageHeader from "../PageHeader/PageHeader";
 import "../ProductPage/Product.css";
 import "./OrdersPage.css";
 
@@ -11,30 +11,8 @@ const OrdersPage = () => {
   return (
     <>
       <div className="Order">
-        <div className="productHeader">
-          <div className="countSec">
-            {/* Counter */}
-            <div className="counter">
-              <div className="icons">
-                <FaBox />
-              </div>
-              <div className="totalPCount">
-                <p id="productText">ALL ORDERS</p>
-                <p>
-                  <strong>{OrderData.length}</strong>
-                </p>
-              </div>
-            </div>
-            {/* filter */}
-            <div className="filter">
-              <button id="filterBtn">
-                <FaSlidersH /> Filter Order
-              </button>
-            </div>
-          </div>
-        </div>
+        <PageHeader dt={OrderData}/>
       </div>
-
       {/* Order Table */}
       <Table striped bordered hover>
         <thead>

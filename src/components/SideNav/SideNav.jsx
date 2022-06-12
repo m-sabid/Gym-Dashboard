@@ -24,14 +24,14 @@ const SideNav = () => {
               Home
             </li>
           </NavLink>
-          <NavLink to="/profile" className="navItem">
+          <NavLink to="m/profile" className="navItem">
             <li>
               <FaUserAlt />
               <br />
               Profile
             </li>
           </NavLink>
-          <NavLink to="/products" className="navItem">
+          <NavLink to="m/products" className="navItem">
             <li>
               {" "}
               <FaDumbbell />
@@ -39,7 +39,7 @@ const SideNav = () => {
               Products
             </li>
           </NavLink>
-          <NavLink to="/orders" className="navItem">
+          <NavLink to="m/orders" className="navItem">
             <li>
               {" "}
               <FaCartArrowDown />
@@ -47,7 +47,7 @@ const SideNav = () => {
               Orders
             </li>
           </NavLink>
-          <NavLink to="/applications" className="navItem">
+          <NavLink to="m/applications" className="navItem">
             <li>
               {" "}
               <FaFileAlt />
@@ -55,7 +55,7 @@ const SideNav = () => {
               Applications
             </li>
           </NavLink>
-          <NavLink to="/transactions" className="navItem">
+          <NavLink to="m/transactions" className="navItem">
             <li>
               {" "}
               <FaDonate />
@@ -63,7 +63,7 @@ const SideNav = () => {
               Transactions
             </li>
           </NavLink>
-          <NavLink to="/settings" className="navItem">
+          <NavLink to="m/settings" className="navItem">
             <li>
               {" "}
               <FaRegSun />
@@ -71,7 +71,7 @@ const SideNav = () => {
               Settings
             </li>
           </NavLink>
-          <NavLink to="/logout" className="navItem">
+          <NavLink to="m/logout" className="navItem">
             <li>
               {" "}
               <FaSignOutAlt />

@@ -1,0 +1,16 @@
+#salaryTblRow > td {
+  background-color: rgb(230, 230, 230);
+  margin: 100px;
+  padding: 10px;
+  text-align: center;
+}
+#slNo{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    font-weight: 700;
+}
